@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Person</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        form p label {
+            display: block;
+            font-size: 13px;
+            font-weight: bold;
+            color: gray !important;
+        }
+        
+        form p input {
+            border: 1px solid #E9ECEF !important;
+            outline: none !important;
+            border-radius: 5px;
+            padding: .2rem 1rem;
+        }
+        
+        .greetings {
+            background-color: #FDF0E0;
+            height: calc(100vh - 60px) !important;
+        }
+        
+        .greetings .container .section-image {
+            width: 700px;
+            height: 400px;
+        }
+        
+        .greetings {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center
+        }
+        
+        .greetings .container p {
+            width: 550px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand font-weight-bold" href="/people">Person<span class="text-primary">.io</span></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link active" href="/people/index">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/people/create">Create New Person </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/people">List People</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <section class="greetings py-3 ">
+        <div class="container  d-flex ">
+
+            <div class="description  ">
+                <h3>Welcome to <span class=" font-weight-bold ">Person<span class=" text-primary ">.io</span></span>
+                </h3>
+                <p class="lead">Welcome the person io web application. Here you can generate a person with required credentials. Are you ready to create your first character?
+                </p>
+                <a href="/people/create" class="btn btn-primary">Create now!</a>
+            </div>
+            <div class=" section-image ">
+                <img class=" w-100 h-100 " src=" https://img.freepik.com/free-vector/group-people-illustration-set_52683-33806.jpg?w=2000 ">
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <script src=" https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity=" sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin=" anonymous "></script>
+    <script src=" https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js " integrity=" sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin=" anonymous "></script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js " integrity=" sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin=" anonymous "></script>
+</body>
+
+</html>
