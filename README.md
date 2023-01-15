@@ -2,7 +2,7 @@
 ## First Web App using DJANGO to understand of creating web app with python.
 ## Run the application
 ```
-python manage.py runserver
+cd mustafaproject && python manage.py runserver
 ```
 
 ![uihome](https://user-images.githubusercontent.com/60453650/212572569-e88a7f6b-9125-4304-8eea-4e37df034f59.png)
